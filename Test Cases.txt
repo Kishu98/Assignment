@@ -1,0 +1,77 @@
+#Test Case 1
+Test Name: Check order account
+
+Test Description: The account which made the order should not be able to accept the order
+
+Desired outcome: Only the Threads Inc account should be able to accept the order.
+
+Actual Outcome: On testing i validated the actual outcome matches the desired outcome.
+
+Result: Pass
+
+#Test Case 2
+Test Name: Create new order
+
+Test Description: A new order with new quantity should be made when a new order function is executed.
+
+Desired Outcome: The quantity of order should be updated or assigned the quantity which was ordered.
+
+Acutal Outcome: On testing It was validated that the actual outcome matches the desired outcome.
+
+Result: Pass
+
+#Test Case 3
+Test Name: View Amount
+
+Test Description: The required amount should be shown in the decoded output after computing.
+
+Desired Outcome: The amount should be calculated and based on the price and the quantity of the order.
+
+Actual Outcome: On testing it was validated that the actual outcome matches the desired outcome.
+
+Result: pass
+
+#Test Case 4
+Test Name: Accept Order
+
+Test Description: The payment should be confirmed by the Beach T-shirt company only.
+
+Desired Outcome: The payment confirmation will be a success only if Beach T-shirt company account executes the function otherwise it throws an error.
+
+Actual Outcome: On testing it was validated that the actual outcome matches the desired outcome.
+
+Result: pass
+
+#Test Case 5:
+Test Name: Confirm Order Completion
+
+Test Description: After the order payment is done there should be a completion message for the order.
+
+Desired Outcome: A message should be displayed informing that the order has been completed.
+
+Actual Outcome: On testing it was validated that the actual outcome matches the desired outcome.
+
+Result: pass
+
+#Test Case 6
+Test Name: Order Reset
+
+Test Description: After the order has been completed the order variable should be reset.
+
+Desired outcome: The variable storing the quantity of the order should be reset.
+
+Actual Outcome: On testing it was validated that the actual outcome matches the desired outcome.
+
+Result: pass
+
+#Test Case 7
+Test Name: Set Price
+
+Test Description: The Threads Inc account should set the price of each T-shirts.
+
+Desired Outcome: Only the Threads Inc account should be able to input the price of the tshirt.
+
+Actual Outcome: On testing it was validated that the actual outcome matches the desired outcome.
+
+Result: Pass
+
